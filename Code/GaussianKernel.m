@@ -1,4 +1,4 @@
-function [kd,km] = GaussianKernel(interaction, gamadd, gamall)
+function [kd,kl] = GaussianKernel(interaction, gamadd, gamall)
     [nd,nl] = size(interaction);
     %calculate gamad for Gaussian kernel calculation
     sd = zeros(nd, 1);
@@ -24,10 +24,10 @@ function [kd,km] = GaussianKernel(interaction, gamadd, gamall)
     end
 
     %calculate Gaussian kernel for the similarity between microbe: km
-    km = zeros(nl);
+    kl = zeros(nl);
     for i = 1:nl
         for j = 1:nl
-            km(i,j) = exp(-gamal*(norm(interaction(:,i)-interaction(:,j)))^2);
+            kl(i,j) = exp(-gamal*(norm(interaction(:,i)-interaction(:,j)))^2);
         end
     end
 end

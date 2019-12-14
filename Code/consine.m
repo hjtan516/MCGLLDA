@@ -1,5 +1,5 @@
-function [ kd,km ] = consine( interaction )
-    [nd,nm] = size(interaction);
+function [ kd,kl ] = consine( interaction )
+    [nd,nl] = size(interaction);
     
 
     %calculate the consine similarity between disease: kd
@@ -11,10 +11,10 @@ function [ kd,km ] = consine( interaction )
     end
 
     %calculate the consine similarity between lncRNA: km
-    km = zeros(nm);
-    for i = 1:nm
-        for j = 1:nm
-            km(i,j) =(interaction(:,i))'*interaction(:,j)/(norm(interaction(:,i))*norm(interaction(:,j)));
+    kl = zeros(nl);
+    for i = 1:nl
+        for j = 1:nl
+            kl(i,j) =(interaction(:,i))'*interaction(:,j)/(norm(interaction(:,i))*norm(interaction(:,j)));
         end
     end
 end

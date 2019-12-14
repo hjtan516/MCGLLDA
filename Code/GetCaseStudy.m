@@ -18,5 +18,5 @@ function [F] = GetCaseStudy(AL, AD, Y)
     AL(size(AL, 2) + 1) = {KL};
     AD(size(AD, 2) + 1) = {KD};
     F = MultiViewPrediction(AL, AD, Y);
-    
+    save F;
 end
