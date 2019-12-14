@@ -13,7 +13,7 @@ function [F] = MultiViewPrediction(AL, AD, Y)
     ADweight = 1 / ADview * ones(ADview,1 );
 
     
-    alpha = 0.0001;  
+    alpha = 0.001;  
     beta = 0.0001;
     gamma = 1;
 

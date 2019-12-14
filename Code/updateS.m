@@ -3,7 +3,7 @@ function [S] = updateS(viewWeight, mvMatrix, F, lambda)
 
     num = size(mvMatrix{1}, 1);
     viewNum = size(viewWeight, 1);
-    
+     
     S = zeros(num); % S is the optimal matrix to be learned         
     distd = L2_distance_1(F', F');
     
