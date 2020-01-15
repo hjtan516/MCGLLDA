@@ -13,10 +13,9 @@ MCGLLDA was developed in MATLAB 2014b environment, but it should be working in a
 
 **Usage**
 
-We provided a functions, case study for users. To run the case study, please load the script 'main.m' into your MATLAB programming environment and click 'run'. 
+We provided a functions, case study for users. To run the case study, please load the script 'caseStudy.m' into your MATLAB programming environment and click 'run'. 
 
 All the datasets used in the code are all provided in the corresponding 'datasets/*.mat'.
-
 
 **Parameters**
 
@@ -25,3 +24,7 @@ There are two parameters alpha and beta in MCGLLDA. The default value of alpha i
 **Output**
 
 The default output directory of MCGLLDA is under the same directory where the scripts locate and it can be changed in the 'caseStudy.m' file accordingly. All the results are stored in 'mat' file for convenience.
+
+**Contact**
+
+For any questions regarding our work, please feel free to contact us: alcs417@sdnu.edu.cn.
