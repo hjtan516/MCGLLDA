@@ -1,6 +1,6 @@
 # MCGLLDA
 
-Multiview Consensus Graph Learning for LncRNA-Disease Association Prediction
+Multiview Consensus Graph Learning for LncRNA-Disease Association Prediction.
 Please read User_Manual.pdf file for more details.
 
 **Method Description**
