@@ -32,7 +32,7 @@ function [SL, SD, F] = alternativeUpdate(ALweight, AL, ADweight, AD, Y, ...
         SD2 = diag(1 ./ diag(sqrtm(DD+eps)));
         LSD = idD - SD2 * SD1 * SD2;
 
-        F = sylvester(2 * alpha * LSL + gamma * idL, 2 * beta * LSD, gamma * Y);
+        F = sylvester(2 * beta * LSL + gamma * idL, 2 * alpha * LSD, gamma * Y);
         
         diff = abs(sum(sum(abs(F) - abs(F_old))));
         if diff < thresh
