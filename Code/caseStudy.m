@@ -29,4 +29,6 @@ D(1) = {disease_sim_matrix};
 predRes = GetCaseStudy(A, D, lncR_disease_matrix);
 
 %output
+
+save('output/case_study.mat', 'predRes');
 fprintf('Case study process completed.\n');
