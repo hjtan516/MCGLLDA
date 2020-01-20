@@ -19,7 +19,7 @@ All the datasets used in the code are all provided in the corresponding 'dataset
 
 **Parameters**
 
-There are two parameters alpha and beta in MCGLLDA. The default value of alpha is 0.001 and beta is 0.0001. Users can change their value in "MultiViewPrediction.m" file.
+There are two parameters alpha and beta in MCGLLDA. The default value of alpha is 0.0001 and beta is 0.001. Users can change their value in "MultiViewPrediction.m" file.
 
 **Output**
 
