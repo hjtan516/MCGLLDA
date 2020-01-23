@@ -13,7 +13,7 @@ MCGLLDA was developed in MATLAB 2014b environment, but it should be working in a
 
 **Usage**
 
-We provided a functions, case study for users. To run the case study, please load the script 'caseStudy.m' into your MATLAB programming environment and click 'run'. 
+We provided a function, case study for users. To run the case study, please load the script 'caseStudy.m' into your MATLAB programming environment and click 'run'. 
 
 All the datasets used in the code are all provided in the corresponding 'datasets/*.mat'.
 
